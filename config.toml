@@ -26,9 +26,9 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Tiktok]
-apkmirror-dlurl = "https://tik-tok.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
 cli-source = "revanced/revanced-cli" 
-#version = "33.0.1"
+version = "33.0.1"
 excluded-patches = "'Downloads' 'Remember clear display'"
