@@ -2,10 +2,10 @@
     "patchName" : "Custom package name",
     "options" : [ {
       "key" : "PackageNameYouTube",
-      "value" : "app.rvx.android.youtube"
+      "value" : "sakizu.youtube"
     }, {
       "key" : "PackageNameYouTubeMusic",
-      "value" : "app.rvx.android.apps.youtube.music"
+      "value" : "sakizu.music"
     } ]
   }, {
     "patchName" : "Custom branding icon YouTube",
