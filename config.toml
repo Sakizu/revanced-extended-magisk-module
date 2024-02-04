@@ -15,6 +15,7 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Music]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 cli-source = "inotia00/revanced-cli" 
 patches-source = "inotia00/revanced-patches"
@@ -28,7 +29,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Tiktok]
-enabled = false
+#enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
