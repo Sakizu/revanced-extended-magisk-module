@@ -7,7 +7,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -30,10 +30,10 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Tiktok]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
 cli-source = "revanced/revanced-cli" 
-version = "33.3.4"
+version = "33.4.2"
 excluded-patches = "'Remember clear display'"
