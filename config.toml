@@ -7,12 +7,13 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
-build-mode = "both"
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-included-patches = "'Add splash animation' 'MaterialYou'"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+enabled = true
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "inotia00 ReVanced"
+included-patches = "'Premium heading'"
+excluded-patches = "'Alternative thumbnails' 'Append time stamps information' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom double tap length' 'Custom seekbar color' 'Enable gradient loading screen' 'Enable new splash animation' 'Enable new thumbnail preview' 'Enable wide search bar' 'Hide autoplay button' 'Hide channel avatar section' 'Hide channel profile components' 'Hide comment component' 'Hide mix playlists' 'Hide time stamp' 'Hide trending searches' 'Keep landscape mode' 'Theme' 'Translations'"
 
 [Music]
 enabled = false
@@ -29,7 +30,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Tiktok]
-#enabled = false
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 patches-source = "revanced/revanced-patches"
 integrations-source = "revanced/revanced-integrations"
