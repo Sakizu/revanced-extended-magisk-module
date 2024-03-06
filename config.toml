@@ -7,17 +7,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
-included-patches = "'Add splash animation' 'MaterialYou'"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+excluded-patches = "'Announcements' 'Enable debugging' 'External downloads' 'Swipe controls' 'Wide searchbar' 'Hide captions button' 'Hide autoplay button' 'Theme' 'Change start page' 'Hide seekbar' 'Comments' 'Hide timestamp'"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Music]
-build-mode = "both"
-excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
-
-[Reddit]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
