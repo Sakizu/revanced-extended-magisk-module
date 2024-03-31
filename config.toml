@@ -18,6 +18,6 @@ excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom brandin
 build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/revanced-integrations"
+integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "YT-Advanced ReVanced"
 excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Translations'"
