@@ -6,6 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "YT-Advanced/ReX-patches"
@@ -15,6 +16,7 @@ included-patches = "'Hide voice search button'"
 excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Enable external browser' 'Enable gradient loading screen' 'Enable language switch' 'Enable new splash animation' 'Enable song search' 'Enable wide search bar' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Theme' 'Translations'"
 
 [Music]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "YT-Advanced/ReX-patches"
