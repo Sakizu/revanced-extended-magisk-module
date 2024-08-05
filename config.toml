@@ -5,15 +5,19 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
+
+
 [YouTube]
-enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-rv-brand = "YT-Advanced ReVanced"
-included-patches = "'Hide voice search button'"
-excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom branding heading' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Enable external browser' 'Enable gradient loading screen' 'Enable language switch' 'Enable new splash animation' 'Enable song search' 'Enable wide search bar' 'Hide seekbar' 'Hide time stamp' 'Hide trending searches' 'Theme' 'Translations'"
+included-patches = "'Force hide player buttons background'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Enable debug logging' 'Enable gradient loading screen' 'Spoof app version' 'Spoof client' 'Theme' 'Translations for YouTube'"
+patches-source = "inotia00/revanced-patches" # where to fetch patches bundle from. default: "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations" # where to fetch integrations from. default: "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+patches-version = "v4.10.4-dev.1"
+integrations-version = "v1.11.4-dev.1"
+cli-version = "v4.6.1"
 
 [Music]
 enabled = false
