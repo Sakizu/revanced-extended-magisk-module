@@ -1,4 +1,4 @@
-YouTube: 19.16.39  
+YouTube: 19.25.39  
 
 Install [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 
