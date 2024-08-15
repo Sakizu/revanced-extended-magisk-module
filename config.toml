@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-version = "19.16.39"
+version = "19.25.39"
 included-patches = "'Force hide player buttons background'"
 excluded-patches = "'Alternative thumbnails' 'Bypass image region restrictions' 'Change player flyout menu toggles' 'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Enable debug logging' 'Enable gradient loading screen' 'Hook download actions' 'Layout switch' 'Remove viewer discretion dialog' 'Theme' 'Translations for YouTube'"
 patches-source = "inotia00/revanced-patches" # where to fetch patches bundle from. default: "inotia00/revanced-patches"
