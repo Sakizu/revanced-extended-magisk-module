@@ -7,14 +7,13 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = false
-build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+patches-source = "ReVanced/revanced-patches-template"
+integrations-source = "ReVanced/revanced-integrations"
+rv-brand = "ReVanced ReVanced"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+included-patches = "'Custom branding'"
+excluded-patches = "'Downloads' 'Hide timestamp' 'Wide searchbar' 'Theme' 'Enable debugging'"
+patcher-args = "-OappName=YouTube "
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
